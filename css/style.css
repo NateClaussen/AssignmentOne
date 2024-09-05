@@ -22,3 +22,27 @@ tr {
 .smallPrint {
 	font-size: 0.7em;
 }
+
+.InfoBox {
+	border: 5px solid black;
+	margin: 1em;
+}
+
+.InfoBox h3,
+h4,
+p {
+	padding: 10px;
+}
+
+.LanguageLogo img {
+	height: 50px;
+}
+
+.NestedList ul,
+li {
+	list-style-type: none;
+}
+
+.navLink {
+	color: black;
+}

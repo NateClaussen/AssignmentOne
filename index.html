@@ -10,27 +10,84 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="index.html"
+					<a class="navLink" href="index.html"
 						><img src="/images/homePicDark.jpg" alt="Home Page"
 					/></a>
 				</li>
-				<li><a href="FirstPage.html">First Page</a></li>
-				<li><a href="SecondPage.html">Second Page</a></li>
-				<li><a href="ThirdPage.html">Third Page</a></li>
+				<li><a class="navLink" href="FirstPage.html">UI and UX</a></li>
+				<li>
+					<a class="navLink" href="SecondPage.html"
+						>Job Opportunities</a
+					>
+				</li>
+				<li>
+					<a class="navLink" href="ThirdPage.html"
+						>HTML, CSS, and JavaScript</a
+					>
+				</li>
 			</ul>
 		</nav>
 		<main>
 			<h1>Home Page</h1>
-			<p>
-				This is the main home page with all of the links to all of the
-				pages in it
-			</p>
-			<ol>
-				<li><a href="">This Page</a></li>
-				<li><a href="FirstPage.html">First Page</a></li>
-				<li><a href="SecondPage.html">Second Page</a></li>
-				<li><a href="ThirdPage.html">Third Page</a></li>
-			</ol>
+			<div class="InfoBox">
+				<p>
+					This is the main home page with all of the links to all of
+					the pages in it! Each page on this website will introduce a
+					new topic related to the study and application of web
+					development!
+				</p>
+				<p>
+					The purpose of all of these pages is to demonstrate what I
+					can do with the skills I have learned in this module.
+				</p>
+			</div>
+			<div class="InfoBox">
+				<ol>
+					<li>
+						<a class="navLink" href="">This Page</a>
+						<ul>
+							<li>
+								This link will keep you right here at the home
+								page!
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="navLink" href="FirstPage.html">UI and UX</a>
+						<ul class="NestedList">
+							<li>
+								This link will take you to a page that explains
+								the difference between UI and UX
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="navLink" href="SecondPage.html"
+							>Job Opportunities</a
+						>
+						<ul class="NestedList">
+							<li>
+								This Page will take you to a page with different
+								jobs that you can find with a Web Developer
+								Skill set
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="navLink" href="ThirdPage.html"
+							>HTML, CSS, and JavaScript</a
+						>
+						<ul class="NestedList">
+							<li>
+								This Page explains in more detail what HTML,
+								CSS, and JavaScript are and what they are used
+								for.
+							</li>
+						</ul>
+					</li>
+				</ol>
+			</div>
 		</main>
+		<footer>This Website was created by Nate Claussen</footer>
 	</body>
 </html>
